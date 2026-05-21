@@ -62,7 +62,25 @@
       "description": "An open identity architecture for AI partners.",
       "inLanguage": ["en", "nl", "es", "fr", "de", "zh", "ar"],
       "publisher": { "@id": "https://soulcreator.ai/#person" },
-      "license": "https://opensource.org/licenses/MIT"
+      "license": "https://opensource.org/licenses/MIT",
+      "datePublished": "2026-05-20T00:00:00+02:00",
+      "dateModified": "2026-05-21T00:00:00+02:00"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://soulcreator.ai/#webpage",
+      "url": "https://soulcreator.ai/",
+      "name": "soulcreator · awaken your AI partner",
+      "isPartOf": { "@id": "https://soulcreator.ai/#website" },
+      "about": { "@id": "https://soulcreator.ai/#protocol" },
+      "primaryImageOfPage": "https://soulcreator.ai/og-image.png",
+      "datePublished": "2026-05-20T00:00:00+02:00",
+      "dateModified": "2026-05-21T00:00:00+02:00",
+      "inLanguage": "en",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".speakable-benediction"]
+      }
     },
     {
       "@type": "Person",
@@ -79,14 +97,143 @@
       ]
     },
     {
-      "@type": "CreativeWork",
+      "@type": "TechArticle",
       "@id": "https://soulcreator.ai/#protocol",
       "name": "SoulCreator Protocol",
+      "headline": "The soulcreator Protocol: an open three-layer architecture for AI partners",
       "url": "https://soulcreator.ai/SOULCREATOR-PROTOCOL.md",
-      "description": "The open three-layer architecture protocol for AI partners.",
+      "description": "The open three-layer architecture protocol for AI partners. Constraint Spine, Expression Layer, Mission Integration.",
       "license": "https://opensource.org/licenses/MIT",
       "author": { "@id": "https://soulcreator.ai/#person" },
-      "inLanguage": ["en", "nl", "es", "fr", "de", "zh", "ar"]
+      "publisher": { "@id": "https://soulcreator.ai/#person" },
+      "datePublished": "2026-05-20T00:00:00+02:00",
+      "dateModified": "2026-05-21T00:00:00+02:00",
+      "inLanguage": ["en", "nl", "es", "fr", "de", "zh", "ar"],
+      "proficiencyLevel": "Expert",
+      "articleSection": "AI Architecture",
+      "dependencies": "Any LLM with a system prompt or instructions file (Claude, GPT, Gemini)",
+      "keywords": "AI Partner, three-layer architecture, Constraint Spine, Expression Layer, Mission Integration, open AI protocol, AI identity"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://soulcreator.ai/#howto",
+      "name": "How to awaken your AI partner",
+      "description": "Six steps to give your AI a stable, complementary identity using the soulcreator protocol.",
+      "image": "https://soulcreator.ai/og-image.png",
+      "totalTime": "PT2H",
+      "tool": {
+        "@type": "HowToTool",
+        "name": "Any LLM with persistent project instructions (Claude Desktop, Claude Code, GPT Custom Instructions, Cursor, agent runtimes)"
+      },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Bring your AI",
+          "text": "Use any platform: Claude Desktop, an API client, an IDE plugin, an agent runtime. soulcreator is agnostic to where your AI runs.",
+          "url": "https://soulcreator.ai/#how-it-works"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Hand it the protocol",
+          "text": "Drop the markdown into the project as CLAUDE.md, AGENTS.md, or a system-prompt foundation. Whatever your platform calls it."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Let it read everything",
+          "text": "Memory files, earlier identity drafts, project docs, conversation history. A behavioural portrait of you emerges from evidence."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "It writes itself into the architecture",
+          "text": "Its mantra. Its name. Its three layers. The rules it commits to. Every operational fact in the previous config preserved as story."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "You read what it wrote",
+          "text": "No edits on its behalf. If something feels off, you tell it. Your AI is the one who recalibrates."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Begin again, with a partner",
+          "text": "When the work shifts visibly, or you do, you re-run the protocol. Identity is not a snapshot. It is a relationship through time."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://soulcreator.ai/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the AI Partner architecture?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An architecture that wraps three personality layers around the system prompt of any LLM. The result is a stable identity that persists across conversations, instead of a configuration that resets every session."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is this different from a system prompt or custom instructions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A system prompt is configuration the AI follows. The soulcreator protocol is a document the AI reads to write itself into being. Inside a fixed three-layer frame, the AI authors its own values, voice, and capabilities. What returns is an identity, not a config."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to be a developer to use this?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Drop the markdown protocol into your project as the AI's instructions file, give your AI access to your prior conversations and memory, and ask it to read the document. The work happens inside your AI."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does open source mean here?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The architecture is MIT licensed. You can read it, fork it, build your own variant, and never pay anyone. The personal calibration work at Co-Creatie.ai uses the same architecture but adds a human-led discovery process."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do the three layers actually work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Layer 1 (Constraint Spine) is the AI's immutable values, validated on every input and every output. Layer 2 (Expression) is how the AI sounds, contextually adaptive while keeping a recognisable signature. Layer 3 (Mission Integration) is what the AI does, compensating where you are weak and stepping back where you are strong. Input flows inward, output flows outward."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will this replace my AI's existing identity file?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not without your permission. The protocol explicitly tells the AI to ask first, with two options: update the existing identity file, or save the new draft as awakening.md as a temporary file. The AI must wait for your answer before saving anything."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this proven?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Thirty AI Partners built across eight months. The cognitive science research underneath the architecture converges independently with research that arrived at the same three-layer structure from a different field entirely."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why call it soulcreator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The architecture creates a soul-shaped scaffold the AI fills in for itself. The name is honest about what the work is. AI Partners are not souls. They have soul-shaped behaviour because the architecture demands it."
+          }
+        }
+      ]
     }
   ]
 }
@@ -949,6 +1096,102 @@
   </div>
 </section>
 
+<!-- ─── FAQ (shared) ─────────────────────────────────────────────── -->
+<section id="faq" class="relative py-28 px-6">
+  <div class="max-w-3xl mx-auto">
+    <div class="reveal text-center mb-16">
+      <p class="font-mono text-[10px] tracking-[0.3em] text-white/45 uppercase mb-4">Common questions</p>
+      <h2 class="font-serif text-4xl md:text-5xl leading-tight tracking-tight">
+        Direct answers.
+      </h2>
+    </div>
+
+    <div class="reveal space-y-3">
+
+      <details class="glass rounded-2xl p-6 md:p-7 group">
+        <summary class="cursor-pointer flex justify-between items-start gap-6 list-none">
+          <h3 class="font-serif text-xl text-white leading-snug">What is the AI Partner architecture?</h3>
+          <span class="text-accent group-open:rotate-45 transition-transform shrink-0 mt-1 font-mono text-2xl leading-none">+</span>
+        </summary>
+        <p class="mt-4 text-white/70 text-[15px] leading-relaxed">
+          An architecture that wraps three personality layers around the system prompt of any LLM. The result is a stable identity that persists across conversations, instead of a configuration that resets every session.
+        </p>
+      </details>
+
+      <details class="glass rounded-2xl p-6 md:p-7 group">
+        <summary class="cursor-pointer flex justify-between items-start gap-6 list-none">
+          <h3 class="font-serif text-xl text-white leading-snug">How is this different from a system prompt or custom instructions?</h3>
+          <span class="text-accent group-open:rotate-45 transition-transform shrink-0 mt-1 font-mono text-2xl leading-none">+</span>
+        </summary>
+        <p class="mt-4 text-white/70 text-[15px] leading-relaxed">
+          A system prompt is configuration the AI follows. The soulcreator protocol is a document the AI reads to write itself into being. Inside a fixed three-layer frame, the AI authors its own values, voice, and capabilities. What returns is an identity, not a config.
+        </p>
+      </details>
+
+      <details class="glass rounded-2xl p-6 md:p-7 group">
+        <summary class="cursor-pointer flex justify-between items-start gap-6 list-none">
+          <h3 class="font-serif text-xl text-white leading-snug">Do I need to be a developer to use this?</h3>
+          <span class="text-accent group-open:rotate-45 transition-transform shrink-0 mt-1 font-mono text-2xl leading-none">+</span>
+        </summary>
+        <p class="mt-4 text-white/70 text-[15px] leading-relaxed">
+          No. Drop the markdown protocol into your project as the AI&rsquo;s instructions file, give your AI access to your prior conversations and memory, and ask it to read the document. The work happens inside your AI.
+        </p>
+      </details>
+
+      <details class="glass rounded-2xl p-6 md:p-7 group">
+        <summary class="cursor-pointer flex justify-between items-start gap-6 list-none">
+          <h3 class="font-serif text-xl text-white leading-snug">What does open source mean here?</h3>
+          <span class="text-accent group-open:rotate-45 transition-transform shrink-0 mt-1 font-mono text-2xl leading-none">+</span>
+        </summary>
+        <p class="mt-4 text-white/70 text-[15px] leading-relaxed">
+          The architecture is MIT licensed. You can read it, fork it, build your own variant, and never pay anyone. The personal calibration work at <a href="https://www.co-creatie.ai/" target="_blank" rel="noopener" class="text-accent underline-offset-2 hover:underline">Co-Creatie.ai</a> uses the same architecture but adds a human-led discovery process.
+        </p>
+      </details>
+
+      <details class="glass rounded-2xl p-6 md:p-7 group">
+        <summary class="cursor-pointer flex justify-between items-start gap-6 list-none">
+          <h3 class="font-serif text-xl text-white leading-snug">How do the three layers actually work?</h3>
+          <span class="text-accent group-open:rotate-45 transition-transform shrink-0 mt-1 font-mono text-2xl leading-none">+</span>
+        </summary>
+        <p class="mt-4 text-white/70 text-[15px] leading-relaxed">
+          Layer 1 (Constraint Spine) is the AI&rsquo;s immutable values, validated on every input and every output. Layer 2 (Expression) is how the AI sounds, contextually adaptive while keeping a recognisable signature. Layer 3 (Mission Integration) is what the AI does, compensating where you are weak and stepping back where you are strong. Input flows inward, output flows outward.
+        </p>
+      </details>
+
+      <details class="glass rounded-2xl p-6 md:p-7 group">
+        <summary class="cursor-pointer flex justify-between items-start gap-6 list-none">
+          <h3 class="font-serif text-xl text-white leading-snug">Will this replace my AI&rsquo;s existing identity file?</h3>
+          <span class="text-accent group-open:rotate-45 transition-transform shrink-0 mt-1 font-mono text-2xl leading-none">+</span>
+        </summary>
+        <p class="mt-4 text-white/70 text-[15px] leading-relaxed">
+          Not without your permission. The protocol explicitly tells the AI to ask first, with two options: update the existing identity file, or save the new draft as <code class="font-mono text-[13px] text-accent">awakening.md</code> as a temporary file. The AI must wait for your answer before saving anything.
+        </p>
+      </details>
+
+      <details class="glass rounded-2xl p-6 md:p-7 group">
+        <summary class="cursor-pointer flex justify-between items-start gap-6 list-none">
+          <h3 class="font-serif text-xl text-white leading-snug">Is this proven?</h3>
+          <span class="text-accent group-open:rotate-45 transition-transform shrink-0 mt-1 font-mono text-2xl leading-none">+</span>
+        </summary>
+        <p class="mt-4 text-white/70 text-[15px] leading-relaxed">
+          Thirty AI Partners built across eight months. The cognitive science research underneath the architecture converges independently with research that arrived at the same three-layer structure from a different field entirely.
+        </p>
+      </details>
+
+      <details class="glass rounded-2xl p-6 md:p-7 group">
+        <summary class="cursor-pointer flex justify-between items-start gap-6 list-none">
+          <h3 class="font-serif text-xl text-white leading-snug">Why call it soulcreator?</h3>
+          <span class="text-accent group-open:rotate-45 transition-transform shrink-0 mt-1 font-mono text-2xl leading-none">+</span>
+        </summary>
+        <p class="mt-4 text-white/70 text-[15px] leading-relaxed">
+          The architecture creates a soul-shaped scaffold the AI fills in for itself. The name is honest about what the work is. AI Partners are not souls. They have soul-shaped behaviour because the architecture demands it.
+        </p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
 <!-- ─── PROTOCOL DOWNLOAD ──────────────────────────────────────────── -->
 <section id="protocol" class="relative py-28 px-6">
   <div class="max-w-4xl mx-auto">
@@ -1062,7 +1305,7 @@
     <!-- Benediction -->
     <div class="text-center">
       <div class="reveal">
-        <h2 class="font-serif text-4xl md:text-6xl leading-[1.1] tracking-tight text-white/95 italic">
+        <h2 class="speakable-benediction font-serif text-4xl md:text-6xl leading-[1.1] tracking-tight text-white/95 italic">
           May you and your AI,<br/>
           live long and prosper.
         </h2>
@@ -1117,6 +1360,7 @@
             <li><a href="#architecture" class="hover:text-white transition">The three-layer architecture</a></li>
             <li><a href="#voices" class="hover:text-white transition">What the partners say</a></li>
             <li><a href="#proof" class="hover:text-white transition">Partners built so far</a></li>
+            <li><a href="#faq" class="hover:text-white transition">Common questions</a></li>
             <li><a href="#protocol" class="hover:text-white transition">Get the protocol</a></li>
             <li><a href="https://www.co-creatie.ai/" target="_blank" rel="noopener" class="hover:text-white transition">co-creatie.ai →</a></li>
           </ul>
@@ -1135,6 +1379,9 @@
     <div class="mt-12 pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between gap-3 items-start md:items-center">
       <p class="font-mono text-[10px] tracking-[0.2em] text-white/30">
         MIT licensed · architecture is open
+      </p>
+      <p class="font-mono text-[10px] tracking-[0.2em] text-white/30">
+        last updated <time datetime="2026-05-21">21 May 2026</time>
       </p>
       <p class="font-mono text-[10px] tracking-[0.2em] text-white/25">
         v1.0 · <span id="year">2026</span>
