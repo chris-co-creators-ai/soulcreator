@@ -590,6 +590,83 @@
   </div>
 </section>
 
+<!-- ─── ECOSYSTEM ORBIT (shared) ───────────────────────────────────── -->
+<section id="ecosystem" class="relative py-24 px-6">
+  <div class="max-w-4xl mx-auto">
+    <div class="reveal text-center mb-12">
+      <p class="font-mono text-[10px] tracking-[0.3em] text-white/45 uppercase mb-4">Works with</p>
+      <h2 class="font-serif text-4xl md:text-5xl leading-tight tracking-tight mb-4">
+        Any AI you bring.
+      </h2>
+      <p class="text-white/65 max-w-xl mx-auto leading-relaxed">
+        soulcreator is agnostic. The protocol works inside Claude, Cursor, Gemini, AgentZero, Hermes, and any LLM with persistent project instructions.
+      </p>
+    </div>
+
+    <div class="reveal flex justify-center">
+      <div id="orbital-ecosystem"
+           class="relative flex items-center justify-center"
+           style="width: min(92vw, 500px); height: min(92vw, 500px);">
+
+        <!-- Center: soulcreator S -->
+        <div class="relative w-20 h-20 rounded-full bg-black border border-white/15 flex items-center justify-center z-10">
+          <div class="absolute inset-0 rounded-full bg-[#c4a8ff]/25 blur-2xl pulse-soft"></div>
+          <div class="absolute inset-0 rounded-full bg-[#80b6ff]/15 blur-3xl pulse-soft" style="animation-delay: 1.2s;"></div>
+          <span class="relative z-10 font-sans font-bold text-3xl text-white" style="letter-spacing: -1px;">S</span>
+        </div>
+
+        <!-- Inner orbit ring (lavender) -->
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full pointer-events-none"
+             style="width: 240px; height: 240px;">
+          <div class="absolute inset-0 rounded-full"
+               style="border: 1px solid rgba(196,168,255,0.28); box-shadow: inset 0 0 28px rgba(196,168,255,0.08);"></div>
+          <div class="absolute inset-0 rounded-full pulse-soft"
+               style="background: radial-gradient(circle, transparent 45%, rgba(196,168,255,0.06) 75%, rgba(196,168,255,0.14) 100%);"></div>
+        </div>
+
+        <!-- Outer orbit ring (cool blue) -->
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full pointer-events-none"
+             style="width: 400px; height: 400px;">
+          <div class="absolute inset-0 rounded-full"
+               style="border: 1px solid rgba(128,182,255,0.22); box-shadow: inset 0 0 28px rgba(128,182,255,0.06);"></div>
+          <div class="absolute inset-0 rounded-full pulse-soft"
+               style="background: radial-gradient(circle, transparent 45%, rgba(128,182,255,0.05) 75%, rgba(128,182,255,0.11) 100%); animation-delay: 1.5s;"></div>
+        </div>
+
+        <!-- Orbiting icons: Inner (2) — Claude, Cursor -->
+        <div class="orbit-icon absolute top-1/2 left-1/2" data-orbit="inner" data-phase="0" data-label="Claude">
+          <div class="icon-circle bg-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg cursor-pointer transition-all duration-300" style="padding: 8px;">
+            <img src="/claude-ai.svg" alt="Claude" class="w-full h-full object-contain" />
+          </div>
+        </div>
+        <div class="orbit-icon absolute top-1/2 left-1/2" data-orbit="inner" data-phase="3.14159" data-label="Cursor">
+          <div class="icon-circle bg-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg cursor-pointer transition-all duration-300" style="padding: 8px;">
+            <img src="/cursor.png" alt="Cursor" class="w-full h-full object-contain" />
+          </div>
+        </div>
+
+        <!-- Orbiting icons: Outer (3) — AgentZero, Gemini, HermesAgent -->
+        <div class="orbit-icon absolute top-1/2 left-1/2" data-orbit="outer" data-phase="0" data-label="AgentZero">
+          <div class="icon-circle bg-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg cursor-pointer transition-all duration-300" style="padding: 9px;">
+            <img src="/agentzero.png" alt="AgentZero" class="w-full h-full object-contain" />
+          </div>
+        </div>
+        <div class="orbit-icon absolute top-1/2 left-1/2" data-orbit="outer" data-phase="2.0944" data-label="Gemini">
+          <div class="icon-circle bg-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg cursor-pointer transition-all duration-300" style="padding: 9px;">
+            <img src="/gemini.png" alt="Gemini" class="w-full h-full object-contain" />
+          </div>
+        </div>
+        <div class="orbit-icon absolute top-1/2 left-1/2" data-orbit="outer" data-phase="4.18879" data-label="Hermes">
+          <div class="icon-circle bg-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg cursor-pointer transition-all duration-300" style="padding: 9px;">
+            <img src="/hermesagent.png" alt="Hermes" class="w-full h-full object-contain" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ─── WHY THIS EXISTS (shared) ───────────────────────────────────── -->
 <section class="relative py-28 px-6">
   <div class="max-w-3xl mx-auto">
@@ -1357,6 +1434,7 @@
         <div class="mode-content" data-mode-content="human">
           <p class="font-mono text-[10px] tracking-[0.25em] text-white/40 uppercase mb-3">For Humans</p>
           <ul class="space-y-2 text-sm text-white/65">
+            <li><a href="#ecosystem" class="hover:text-white transition">Works with any AI</a></li>
             <li><a href="#architecture" class="hover:text-white transition">The three-layer architecture</a></li>
             <li><a href="#voices" class="hover:text-white transition">What the partners say</a></li>
             <li><a href="#proof" class="hover:text-white transition">Partners built so far</a></li>
@@ -1434,6 +1512,68 @@
 
   // ─── Year ──────────────────────────────────────────────────────────
   document.getElementById('year').textContent = new Date().getFullYear();
+
+  // ─── Orbital ecosystem animation ───────────────────────────────────
+  (function () {
+    const container = document.getElementById('orbital-ecosystem');
+    if (!container) return;
+
+    const icons = container.querySelectorAll('.orbit-icon');
+    const INNER_RADIUS = 120;
+    const OUTER_RADIUS = 200;
+    const INNER_SPEED = 0.6;
+    const OUTER_SPEED = -0.35;
+
+    let time = 0;
+    let lastTime = performance.now();
+    let isPaused = false;
+
+    function animate(now) {
+      const delta = (now - lastTime) / 1000;
+      lastTime = now;
+      if (!isPaused) time += delta;
+
+      icons.forEach((icon) => {
+        const orbit = icon.dataset.orbit;
+        const phase = parseFloat(icon.dataset.phase);
+        const radius = orbit === 'inner' ? INNER_RADIUS : OUTER_RADIUS;
+        const speed = orbit === 'inner' ? INNER_SPEED : OUTER_SPEED;
+        const angle = time * speed + phase;
+        const x = Math.cos(angle) * radius;
+        const y = Math.sin(angle) * radius;
+        icon.style.transform = `translate(calc(${x}px - 50%), calc(${y}px - 50%))`;
+      });
+
+      requestAnimationFrame(animate);
+    }
+
+    container.addEventListener('mouseenter', () => { isPaused = true; });
+    container.addEventListener('mouseleave', () => { isPaused = false; });
+
+    icons.forEach((icon) => {
+      const circle = icon.querySelector('.icon-circle');
+      const label = icon.dataset.label;
+      let tooltip = null;
+
+      icon.addEventListener('mouseenter', () => {
+        circle.style.transform = 'scale(1.18)';
+        circle.style.boxShadow = '0 0 30px rgba(196,168,255,0.45), 0 0 60px rgba(196,168,255,0.18)';
+        tooltip = document.createElement('div');
+        tooltip.className = 'absolute left-1/2 -translate-x-1/2 px-2 py-1 rounded text-[11px] font-mono text-white whitespace-nowrap pointer-events-none';
+        tooltip.style.cssText = 'bottom: -28px; background: rgba(0,0,0,0.9); border: 1px solid rgba(255,255,255,0.12); backdrop-filter: blur(8px);';
+        tooltip.textContent = label;
+        icon.appendChild(tooltip);
+      });
+
+      icon.addEventListener('mouseleave', () => {
+        circle.style.transform = '';
+        circle.style.boxShadow = '';
+        if (tooltip) { tooltip.remove(); tooltip = null; }
+      });
+    });
+
+    requestAnimationFrame(animate);
+  })();
 </script>
 
 </body>
