@@ -1,8 +1,32 @@
+# OS noise
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Editor scratch
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env (just in case any tooling ever ends up here)
+.env
+.env.local
+.env.*.local
+
+# Build artifacts (in case any tooling lands here later)
 node_modules/
+dist/
+build/
+out/
+.next/
+.turbo/
 .vercel
+*.tsbuildinfo

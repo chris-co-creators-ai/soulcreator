@@ -101,7 +101,7 @@
       "@id": "https://soulcreator.ai/#protocol",
       "name": "SoulCreator Protocol",
       "headline": "The soulcreator Protocol: an open three-layer architecture for AI partners",
-      "url": "https://soulcreator.ai/SOULCREATOR-PROTOCOL.md",
+      "url": "https://soulcreator.ai/en/SKILL.md",
       "description": "The open three-layer architecture protocol for AI partners. Constraint Spine, Expression Layer, Mission Integration.",
       "license": "https://opensource.org/licenses/MIT",
       "author": { "@id": "https://soulcreator.ai/#person" },
@@ -514,13 +514,25 @@
           open · MIT
         </span>
       </a>
-      <div class="toggle-pill" id="modeToggle">
-        <button class="toggle-btn active" data-mode="human">
-          <span>👤</span> <span>I'm a Human</span>
-        </button>
-        <button class="toggle-btn" data-mode="agent">
-          <span>🤖</span> <span>I'm an Agent</span>
-        </button>
+      <div class="flex items-center gap-2">
+        <a href="https://github.com/chris-co-creators-ai/soulcreator" target="_blank" rel="noopener noreferrer"
+           id="github-star-btn"
+           class="inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 border border-white/10 hover:border-[rgba(196,168,255,0.4)] hover:bg-white/[0.04] transition-all text-white/85 hover:text-white"
+           aria-label="View on GitHub, star the repo">
+          <svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4" aria-hidden="true">
+            <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.93c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.69 1.24 3.34.95.1-.74.4-1.24.73-1.53-2.55-.29-5.23-1.27-5.23-5.67 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.17.92-.26 1.91-.39 2.89-.39.98 0 1.97.13 2.89.39 2.2-1.48 3.17-1.17 3.17-1.17.62 1.59.23 2.76.11 3.05.74.8 1.18 1.82 1.18 3.07 0 4.41-2.69 5.38-5.25 5.66.41.36.78 1.06.78 2.14v3.18c0 .31.21.66.79.55C20.71 21.39 24 17.08 24 12 24 5.65 18.85.5 12.5.5h-.5z"/>
+          </svg>
+          <span class="text-[#c4a8ff] text-[12px] leading-none">★</span>
+          <span id="github-star-count" class="font-mono text-[12px] text-white/90 leading-none tabular-nums">&middot;&middot;</span>
+        </a>
+        <div class="toggle-pill" id="modeToggle">
+          <button class="toggle-btn active" data-mode="human">
+            <span>👤</span> <span class="hidden sm:inline">I'm a Human</span><span class="sm:hidden">Human</span>
+          </button>
+          <button class="toggle-btn" data-mode="agent">
+            <span>🤖</span> <span class="hidden sm:inline">I'm an Agent</span><span class="sm:hidden">Agent</span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -573,13 +585,13 @@
       </p>
 
       <div class="reveal max-w-2xl mx-auto text-left">
-        <pre class="codeblock"><button class="copy" data-copy="curl">copy</button><span class="prompt">$</span> <span>curl -fsSL https://soulcreator.ai/SOULCREATOR-PROTOCOL.md \
+        <pre class="codeblock"><button class="copy" data-copy="curl">copy</button><span class="prompt">$</span> <span>curl -fsSL https://soulcreator.ai/en/SKILL.md \
     -o SOULCREATOR.md</span>
 <span class="comment"># then read it. all of it. before you write anything.</span></pre>
       </div>
 
       <div class="reveal flex flex-wrap items-center justify-center gap-3 mt-8">
-        <a href="/SOULCREATOR-PROTOCOL.md" class="btn btn-primary">Open the protocol →</a>
+        <a href="/en/SKILL.md" class="btn btn-primary">Open the protocol →</a>
         <a href="#architecture" class="btn btn-ghost">Understand the layers</a>
       </div>
       <p class="reveal mt-10 font-mono text-[11px] text-white/40 tracking-[0.18em] uppercase">
@@ -1299,7 +1311,7 @@
       <!-- code blocks — shared but with tiny mode-conditional comment -->
       <div class="grid md:grid-cols-2 gap-3 mb-8">
         <pre class="codeblock"><button class="copy" data-copy="curl">copy</button><span class="prompt">$</span> curl -fsSL \
-    https://soulcreator.ai/SOULCREATOR-PROTOCOL.md \
+    https://soulcreator.ai/en/SKILL.md \
     -o CLAUDE.md</pre>
         <pre class="codeblock"><button class="copy" data-copy="bun">copy</button><span class="prompt">$</span> bunx degit \
     soulcreator/protocol \
@@ -1311,13 +1323,13 @@
       <div class="mode-content border-t border-white/5 pt-8" data-mode-content="human">
         <p class="font-mono text-[10px] tracking-[0.3em] text-white/45 uppercase mb-4">Available in</p>
         <div class="flex flex-wrap gap-2">
-          <a href="/SOULCREATOR-PROTOCOL.md" class="lang-chip"><span>🇬🇧</span> English</a>
-          <a href="/SOULCREATOR-PROTOCOL.nl.md" class="lang-chip"><span>🇳🇱</span> Nederlands</a>
-          <a href="/SOULCREATOR-PROTOCOL.es.md" class="lang-chip"><span>🇪🇸</span> Español</a>
-          <a href="/SOULCREATOR-PROTOCOL.fr.md" class="lang-chip"><span>🇫🇷</span> Français</a>
-          <a href="/SOULCREATOR-PROTOCOL.de.md" class="lang-chip"><span>🇩🇪</span> Deutsch</a>
-          <a href="/SOULCREATOR-PROTOCOL.zh.md" class="lang-chip"><span>🇨🇳</span> 中文</a>
-          <a href="/SOULCREATOR-PROTOCOL.ar.md" class="lang-chip"><span>🇸🇦</span> العربية</a>
+          <a href="/en/SKILL.md" class="lang-chip"><span>🇬🇧</span> English</a>
+          <a href="/nl/SKILL.md" class="lang-chip"><span>🇳🇱</span> Nederlands</a>
+          <a href="/es/SKILL.md" class="lang-chip"><span>🇪🇸</span> Español</a>
+          <a href="/fr/SKILL.md" class="lang-chip"><span>🇫🇷</span> Français</a>
+          <a href="/de/SKILL.md" class="lang-chip"><span>🇩🇪</span> Deutsch</a>
+          <a href="/zh/SKILL.md" class="lang-chip"><span>🇨🇳</span> 中文</a>
+          <a href="/ar/SKILL.md" class="lang-chip"><span>🇸🇦</span> العربية</a>
         </div>
       </div>
 
@@ -1325,17 +1337,35 @@
       <div class="mode-content hidden-soft border-t border-white/5 pt-8" data-mode-content="agent">
         <p class="font-mono text-[10px] tracking-[0.3em] text-white/45 uppercase mb-4">Pick the language of your project</p>
         <div class="flex flex-wrap gap-2">
-          <a href="/SOULCREATOR-PROTOCOL.md" class="lang-chip"><span>🇬🇧</span> English</a>
-          <a href="/SOULCREATOR-PROTOCOL.nl.md" class="lang-chip"><span>🇳🇱</span> Nederlands</a>
-          <a href="/SOULCREATOR-PROTOCOL.es.md" class="lang-chip"><span>🇪🇸</span> Español</a>
-          <a href="/SOULCREATOR-PROTOCOL.fr.md" class="lang-chip"><span>🇫🇷</span> Français</a>
-          <a href="/SOULCREATOR-PROTOCOL.de.md" class="lang-chip"><span>🇩🇪</span> Deutsch</a>
-          <a href="/SOULCREATOR-PROTOCOL.zh.md" class="lang-chip"><span>🇨🇳</span> 中文</a>
-          <a href="/SOULCREATOR-PROTOCOL.ar.md" class="lang-chip"><span>🇸🇦</span> العربية</a>
+          <a href="/en/SKILL.md" class="lang-chip"><span>🇬🇧</span> English</a>
+          <a href="/nl/SKILL.md" class="lang-chip"><span>🇳🇱</span> Nederlands</a>
+          <a href="/es/SKILL.md" class="lang-chip"><span>🇪🇸</span> Español</a>
+          <a href="/fr/SKILL.md" class="lang-chip"><span>🇫🇷</span> Français</a>
+          <a href="/de/SKILL.md" class="lang-chip"><span>🇩🇪</span> Deutsch</a>
+          <a href="/zh/SKILL.md" class="lang-chip"><span>🇨🇳</span> 中文</a>
+          <a href="/ar/SKILL.md" class="lang-chip"><span>🇸🇦</span> العربية</a>
         </div>
         <p class="font-mono text-[10px] text-white/40 tracking-[0.15em] uppercase mt-5 italic">
           Mirror your human's working language. For mixed-language projects, choose the language the existing config file uses.
         </p>
+      </div>
+
+      <!-- GitHub CTA -->
+      <div class="border-t border-white/5 mt-8 pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div>
+          <p class="font-mono text-[10px] tracking-[0.25em] text-accent uppercase mb-2">Open source</p>
+          <p class="text-white/80 text-[15px] leading-relaxed">
+            The full repo lives on GitHub. Fork it, study it, send a PR, or just leave a star.
+          </p>
+        </div>
+        <a href="https://github.com/chris-co-creators-ai/soulcreator" target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-2.5 rounded-full px-5 py-2.5 border border-white/10 hover:border-[rgba(196,168,255,0.4)] hover:bg-white/[0.04] transition-all text-white whitespace-nowrap">
+          <svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4" aria-hidden="true">
+            <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.93c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.69 1.24 3.34.95.1-.74.4-1.24.73-1.53-2.55-.29-5.23-1.27-5.23-5.67 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.17.92-.26 1.91-.39 2.89-.39.98 0 1.97.13 2.89.39 2.2-1.48 3.17-1.17 3.17-1.17.62 1.59.23 2.76.11 3.05.74.8 1.18 1.82 1.18 3.07 0 4.41-2.69 5.38-5.25 5.66.41.36.78 1.06.78 2.14v3.18c0 .31.21.66.79.55C20.71 21.39 24 17.08 24 12 24 5.65 18.85.5 12.5.5h-.5z"/>
+          </svg>
+          <span class="text-[13px]">Star on GitHub</span>
+          <span class="text-[#c4a8ff] text-[13px]">★</span>
+        </a>
       </div>
 
     </div>
@@ -1449,7 +1479,7 @@
           <ul class="space-y-2 text-sm text-white/65">
             <li><a href="#architecture" class="hover:text-white transition">Your three layers</a></li>
             <li><a href="#protocol" class="hover:text-white transition">Download the protocol</a></li>
-            <li><a href="/SOULCREATOR-PROTOCOL.md" class="hover:text-white transition">Open the protocol now →</a></li>
+            <li><a href="/en/SKILL.md" class="hover:text-white transition">Open the protocol now →</a></li>
           </ul>
         </div>
       </div>
@@ -1512,6 +1542,38 @@
 
   // ─── Year ──────────────────────────────────────────────────────────
   document.getElementById('year').textContent = new Date().getFullYear();
+
+  // ─── GitHub star counter ───────────────────────────────────────────
+  (function () {
+    const el = document.getElementById('github-star-count');
+    if (!el) return;
+    const REPO = 'chris-co-creators-ai/soulcreator';
+    const CACHE_KEY = 'sc-gh-stars';
+    const CACHE_TTL = 10 * 60 * 1000; // 10 minutes
+
+    function format(n) {
+      if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+      return String(n);
+    }
+
+    // Try cache first
+    try {
+      const cached = JSON.parse(sessionStorage.getItem(CACHE_KEY) || 'null');
+      if (cached && Date.now() - cached.t < CACHE_TTL && typeof cached.n === 'number') {
+        el.textContent = format(cached.n);
+        return;
+      }
+    } catch (_) { /* ignore */ }
+
+    fetch('https://api.github.com/repos/' + REPO, { headers: { Accept: 'application/vnd.github+json' } })
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if (!data || typeof data.stargazers_count !== 'number') return;
+        el.textContent = format(data.stargazers_count);
+        try { sessionStorage.setItem(CACHE_KEY, JSON.stringify({ n: data.stargazers_count, t: Date.now() })); } catch (_) { /* ignore */ }
+      })
+      .catch(() => { el.textContent = '★'; });
+  })();
 
   // ─── Orbital ecosystem animation ───────────────────────────────────
   (function () {

@@ -6,16 +6,16 @@
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://soulcreator.ai/SOULCREATOR-PROTOCOL.md" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://soulcreator.ai/SOULCREATOR-PROTOCOL.nl.md" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://soulcreator.ai/SOULCREATOR-PROTOCOL.es.md" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://soulcreator.ai/SOULCREATOR-PROTOCOL.fr.md" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://soulcreator.ai/SOULCREATOR-PROTOCOL.de.md" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://soulcreator.ai/SOULCREATOR-PROTOCOL.zh.md" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://soulcreator.ai/SOULCREATOR-PROTOCOL.ar.md" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://soulcreator.ai/en/SKILL.md" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://soulcreator.ai/nl/SKILL.md" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://soulcreator.ai/es/SKILL.md" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soulcreator.ai/fr/SKILL.md" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://soulcreator.ai/de/SKILL.md" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://soulcreator.ai/zh/SKILL.md" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://soulcreator.ai/ar/SKILL.md" />
   </url>
   <url>
-    <loc>https://soulcreator.ai/SOULCREATOR-PROTOCOL.md</loc>
+    <loc>https://soulcreator.ai/en/SKILL.md</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
